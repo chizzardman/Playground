@@ -1,18 +1,18 @@
 ! Blurb file created by Inform build 6M62
 
-status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\Chizzardman\Documents\Recreation\Inform\Projects\Playground.inform\Build\StatusCblorb.html"
+status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\Chizzardman\Documents\Recreation\Inform\Playground\Playground.inform\Build\StatusCblorb.html"
 
 
 ! Identification
 
-project folder "C:\Users\Chizzardman\Documents\Recreation\Inform\Projects\Playground.inform"
-release to "C:\Users\Chizzardman\Documents\Recreation\Inform\Projects\Playground.materials\Release"
+project folder "C:\Users\Chizzardman\Documents\Recreation\Inform\Playground\Playground.inform"
+release to "C:\Users\Chizzardman\Documents\Recreation\Inform\Playground\Playground.materials\Release"
 
 ! Blorb instructions
 
 storyfile leafname "Playground.gblorb"
-storyfile "C:\Users\Chizzardman\Documents\Recreation\Inform\Projects\Playground.inform\Build\output.ulx" include
-ifiction "C:\Users\Chizzardman\Documents\Recreation\Inform\Projects\Playground.inform\Metadata.iFiction" include
+storyfile "C:\Users\Chizzardman\Documents\Recreation\Inform\Playground\Playground.inform\Build\output.ulx" include
+ifiction "C:\Users\Chizzardman\Documents\Recreation\Inform\Playground\Playground.inform\Metadata.iFiction" include
 cover "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 
@@ -22,7 +22,7 @@ placeholder [IFID] = "EDDD2601-2122-4CD7-B2BF-B611A3D41053"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2017"
 placeholder [TITLE] = "Playground"
-placeholder [AUTHOR] = "Chris McLean-Wheeler"
+placeholder [AUTHOR] = "Chris McLean-Wheeler and Jonathan Wheeler"
 placeholder [BLURB] = "A work of interactive fiction."
 
 ! Other material to release

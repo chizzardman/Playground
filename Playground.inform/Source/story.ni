@@ -1,6 +1,6 @@
 "Playground" by Chris McLean-Wheeler and Jonathan Wheeler
 
-Use BRIEF room descriptions.
+Use VERBOSE room descriptions.
 
 The carrying capacity of the player is 2.
 
@@ -32,17 +32,10 @@ Instead of speech when the noun is Mr Fruit:
 		say "Mr Fruit says 'Oh my, you've got your hands full, I see.'";
 	otherwise if the second noun is grapes:
 		say "Mr Fruit smiles and hands you the jar of grapes.";
-		now the jar is nowhere;
 		now the player is carrying the jar;
 	otherwise if the second noun is the jar:
 		say "Mr Fruit smiles and hands you the jar of grapes.";
-		now the jar is nowhere;
 		now the player is carrying the jar.
-
-After asking for the jar in the presence of Mr Fruit:
-	unless the player is carrying two things:
-		say "Mr Fruit smiles and hands you the jar of grapes.";
-		now the player is carrying the jar;
 
 The Green Room is north of the Red Room. "There are exits to the west and south."
 
@@ -60,7 +53,9 @@ After taking the box:
 	if a thing is in the box:
 		if unsturdy:
 			now all of the things in the box are in the location;
-			say "The box's bottom gives, and its contents spill onto the ground."
+			say "The box's bottom gives, and its contents spill onto the ground.";
+	otherwise:
+		say "Taken."
 
 Before inserting something into the void:
 	if the noun is the tiny room:
